@@ -1,0 +1,16 @@
+.chet-point {
+  position: fixed !important;
+  background-color: red;
+  min-width: 20px !important;
+  min-height: 20px !important;
+  display: block !important;
+  z-index: 1e+308 !important;
+  box-shadow: 0 0 20px black !important;
+}
+
+.chet-splodge {
+  background-color: transparent;
+  position: fixed;
+  box-shadow: 0 0 40px black !important;
+  opacity: 0.5;
+}

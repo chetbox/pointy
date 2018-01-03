@@ -1,0 +1,16 @@
+{
+  "name" : "Pointy LEAP",
+  "manifest_version" : 2,
+  "version" : "0.1",
+  "description" : "Point at things on the screen",
+  "icons" : { "256" : "10748.png" },
+    "content_scripts": [
+      {
+      "matches": ["<all_urls>"],
+        "css": ["fingers.css"],
+        "js": ["jquery-2.1.1.min.js",
+               "leap.min.js",
+               "fingers.js"]
+      }
+   ]
+}
